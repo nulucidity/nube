@@ -1,0 +1,54 @@
+/*
+**********************************************************************
+** Copyright (c) 1988-2023 $organization$     
+**
+** This software is provided by the author and contributors ``as is'' 
+** and any express or implied warranties, including, but not limited to, 
+** the implied warranties of merchantability and fitness for a particular 
+** purpose are disclaimed. In no event shall the author or contributors 
+** be liable for any direct, indirect, incidental, special, exemplary, 
+** or consequential damages (including, but not limited to, procurement 
+** of substitute goods or services; loss of use, data, or profits; or 
+** business interruption) however caused and on any theory of liability, 
+** whether in contract, strict liability, or tort (including negligence 
+** or otherwise) arising in any way out of the use of this software, 
+** even if advised of the possibility of such damage.
+**
+**   File: Ulucidity-power.css
+**
+** Author: $author$           
+**   Date: 2/10/2023
+**********************************************************************
+** Application=Ulucidity Page=power
+*/
+
+table.outer {
+border-color: white;
+border-style: solid;
+border-width: 1px;
+font-family: Arial; 
+}
+
+table.inner {
+border-color: lightgray;
+border-style: solid;
+border-width: 3px;
+border-radius: 29px;
+background-color: black;
+}
+
+table.inner font {
+color: lightgray;
+font-style: italic;
+font-weight: bold;
+}
+
+table.inner a:link, table.inner a:visited {
+    color: lightgray;
+    text-decoration: none;
+}
+table.inner a:hover, table.inner a:active {
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
