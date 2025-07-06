@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===========================================================================
+=== Copyright (c) 1988-2024 $organization$
+===
+=== This software is provided by the author and contributors ``as is'' 
+=== and any express or implied warranties, including, but not limited to, 
+=== the implied warranties of merchantability and fitness for a particular 
+=== purpose are disclaimed. In no event shall the author or contributors 
+=== be liable for any direct, indirect, incidental, special, exemplary, 
+=== or consequential damages (including, but not limited to, procurement 
+=== of substitute goods or services; loss of use, data, or profits; or 
+=== business interruption) however caused and on any theory of liability, 
+=== whether in contract, strict liability, or tort (including negligence 
+=== or otherwise) arising in any way out of the use of this software, 
+=== even if advised of the possibility of such damage.
+===
+===   File: ulucidity-udentify-form.html
+===
+=== Author: $author$
+===   Date: 8/28/2024, 10/25/2024, 5/6/2025
+===========================================================================
+=== Application=ulucidity Page=udentify Part=form
+-->
+
+<!--
+=====================================================================
+=== form
+=====================================================================
+-->
+<form name="Form" method="POST" 
+ action="/udentify-cgi/udentifycgi" xaction="/vedere-cgi/udentifycgi"
+ onSubmit="return setFormSubmit(getFormValue2('FormTemplate','FormAction','Form'),getFormValue('FormMethod','Form'),'Form')">
+    <div class="form">
+
+    <br/>user: <input name="user" value=""></input><select name="users">
+    <option value=""></option>
+    <option value="medusaxde">medusaxde</option>
+    <option value="euryalede">euryalede</option>
+    <option value="sthenode">sthenode</option>
+    <option value="xthenode">xthenode</option>
+    <option value="zthenode">zthenode</option>
+    <option value=""></option>
+    <option value="ulucidity">ulucidity</option>
+    <option value="umachinae">umachinae</option>
+    <option value="vmachinae">vmachinae</option>
+    <option value=""></option>
+    <option value="lisajoywalton">lisajoywalton</option>
+    <option value="lisajoymakeup">lisajoymakeup</option>
+    <option value="ljoy8">ljoy8</option>
+    <option value=""></option>
+    </select>[user]
+    <br/>resource: <input name="resource" value=""></input><select name="resources">
+    <option value=""></option>
+    <option value="gmail">gmail</option>
+    <option value="outlook">outlook</option>
+    <option value=""></option>
+    <option value="apple">apple</option>
+    <option value="google">google</option>
+    <option value="microsoft">microsoft</option>
+    <option value=""></option>
+    <option value="github">github</option>
+    <option value=""></option>
+    </select>[resource]
+    <br/>password: <input name="password" value=""></input><select name="passwords">
+    <option value=""></option>
+    <option value="password">password</option>
+    <option value="resource">resource</option>
+    <option value="user">user</option>
+    <option value="info">info</option>
+    <option value=""></option>
+    </select>[password]
+    <br/>
+
+    <br/>
+    Content-Type: <select name="content_type">
+    <option value="text/plain">text</option>
+    <option value="text/html">html</option>
+    <option value="text/xml">xml</option>
+    <option value="application/json">json</option>
+    <option value="application/javascript">javascript</option>
+    <option value=""></option>
+    </select>
+    <br/>
+    Action: <select name="FormAction">
+    <option value="/udentify-cgi/udentifycgi">udentify cgi (/udentify-cgi/udentifycgi)</option>
+    <option value="/udentify-cgi/udentifycgicatch">udentify cgi catch (/udentify-cgi/udentifycgicatch)</option>
+    <option value=""></option>
+    <option value="/umachinae-cgi/udentifycgi">umachinae udentify cgi (/umachinae-cgi/udentifycgi)</option>
+    <option value="/umachinae-cgi/udentifycgicatch">umachinae udentify cgi catch (/umachinae-cgi/udentifycgicatch)</option>
+    <option value=""></option>
+    <option value="/vedere-cgi/udentifycgi">vedere udentify cgi (/vedere-cgi/udentifycgi)</option>
+    <option value="/vedere-cgi/udentifycgicatch">vedere udentify cgi catch (/vedere-cgi/udentifycgicatch)</option>
+    <option value=""></option>
+    <option value="/verita-cgi/udentifycgi">verita udentify cgi (/verita-cgi/udentifycgi)</option>
+    <option value="/verita-cgi/udentifycgicatch">verita udentify cgi catch (/verita-cgi/udentifycgicatch)</option>
+    <option value=""></option>
+    <option value="../templates/t/t/parameters.t">t parameters &nbsp;&nbsp; (../templates/t/t/parameters.t)</option>
+    <option value="../templates/t/t/functions.t">t functions &nbsp;&nbsp; (../templates/t/t/functions.t)</option>
+    <option value=""></option>
+    <option value="/ulucidity-cgi/cgi">cgi parameters &nbsp;&nbsp; (/ulucidity-cgi/cgi)</option>
+    <option value="/ulucidity-cgi/cgicatch">catch cgi parameters &nbsp;&nbsp; (/ulucidity-cgi/cgicatch)</option>
+    <option value=""/>
+    </select>
+    <br/>
+    Method: <select name="FormMethod">
+    <option value="POST">POST</option>
+    <option value="GET">GET</option>
+    <option value=""></option>
+    </select>
+    <br/>
+    <br/>
+    <input type="submit" name="submit" value="submit"/><br/>
+    </div>
+</form>
